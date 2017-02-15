@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AddressProcessing", "AddressProcessor\AddressProcessing.csproj", "{5FDED6F5-759C-45DE-84FA-325D7F9F6D4B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AddressProcessing.Tests", "AddressProcessor.Tests\AddressProcessing.Tests.csproj", "{861D0B6B-8851-4D1C-A3D7-41A11140A3BD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Todo", "Todo", "{CFF76B72-3F56-488C-80DA-78784083CC5D}"
+	ProjectSection(SolutionItems) = preProject
+		..\README.TXT = ..\README.TXT
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5FDED6F5-759C-45DE-84FA-325D7F9F6D4B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5FDED6F5-759C-45DE-84FA-325D7F9F6D4B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5FDED6F5-759C-45DE-84FA-325D7F9F6D4B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5FDED6F5-759C-45DE-84FA-325D7F9F6D4B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{861D0B6B-8851-4D1C-A3D7-41A11140A3BD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{861D0B6B-8851-4D1C-A3D7-41A11140A3BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{861D0B6B-8851-4D1C-A3D7-41A11140A3BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{861D0B6B-8851-4D1C-A3D7-41A11140A3BD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
