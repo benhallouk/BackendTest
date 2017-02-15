@@ -8,9 +8,15 @@ namespace AddressProcessing.CSV
 
         Please leave the rest of this file as it is so we can discuss your concerns during the next stage of the interview process.
         
-        *)
-        *)
-        *)
+        *) This class does not handel the external resources very well it uses the operating resources in this case file but does not handel it very well, it needs to imeplement IDisposable and deal with situations when file is locked or in use by other program or thread
+        *) Lack of Null Exceptions and error handling in general, not predictable code and not tastable code depends on StreamReader, StreamWriter 
+        *) Lack of guardian clauses for all the methods to validate parameters
+        
+        Here are more notes to provide to mz junior collegue in order to improve his skills, I would also mention this details:
+
+        Open method: has too many logical flows there must be only 2 cases (if mode = read and else the oposite)
+        Write method: Use Linq instead of for avoid if condition by adding the tab character at the end out side the loop
+        Read method: Variable decalaration must be close to its usage, this method does not do anything with content of the columns, there must be read without should be TryRead instead and no need to set out parameters to null enough to return false in case that the columns are not readable
     */
 
     public class CSVReaderWriterForAnnotation
