@@ -10,7 +10,7 @@ namespace AddressProcessing.CSV
         
         *) This class does not handel the external resources very well it uses the operating resources in this case file but does not handel it very well, it needs to imeplement IDisposable and deal with situations when file is locked or in use by other program or thread
         *) Lack of Null Exceptions and error handling in general, not predictable code and not tastable code depends on StreamReader, StreamWriter 
-        *) Lack of guardian clauses for all the methods to validate parameters
+        *) Lack of guardian clauses for all the methods to validate parameters and lack of managing the state of the class things like open twice close twice etc ...
         
         Here are more notes to provide to mz junior collegue in order to improve his skills, I would also mention this details:
 
